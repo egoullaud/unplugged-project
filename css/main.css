@@ -193,21 +193,29 @@ header .content-wrapper{
   margin: 10px 0 20px 0;
 }
 header nav {
-  text-transform: uppercase;
+  width: 60%;
   font-size: 1.125em;
-  font-weight:700;
+  font-weight: 700;
+  text-transform: uppercase;
   display: flex;
-  justify-content: space-around;
-  align-items:center;
+  justify-content: space-between;
+  align-items: center;
   flex-flow: row wrap;
-  width:60%;
+  
 }
 
-header .navbar ul{
-  display: flex;
-  justify-content: space-around;
+header nav ul {
   width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
+
+header nav ul li {
+  font-size: 1.125em;
+  padding: 0 40px;
+  align-items: center;
+}
+
 footer{
   flex-direction: column;
   text-align: center;
@@ -532,11 +540,11 @@ header .content-wrapper {
 header figure{
   width:30%;
 }
-header .navbar {
+header nav {
   width: 20%;
 }
 
-header .navbar ul{
+header nav ul{
   justify-content: space-between;
 }
 
@@ -577,22 +585,23 @@ flex-basis: 50%;
 
 /* ----------------------------------REVIEWS----------------------------------------- */
 .reviews article {
- display: flex;
- justify-content: space-between;
-}
-.reviews h2{
-  width:85%;
+  display: flex;
+  justify-content: space-between;
 }
 
+.reviews h2 {
+  width: 85%;
+}
+
+.reviews article figure,
 .reviews article div {
-    width:  49%;       
+  width: 49%;
 }
 
-.reviews h3{
+.reviews h3 {
   width: 75%;
   margin: 0;
 }
-
 
 /* ----------------------------------FOOTER------------------------------------------ */
 
@@ -728,11 +737,16 @@ flex-basis: 33%;
 
 /* ---------------------------------REVIEWS----------------------------------------- */
 
-.reviews article div {
-    width:  42%;       
+.reviews h2 {
+  padding-bottom: 50px; 
 }
-.reviews h2{
-  padding-bottom: 50px;
+
+.reviews article div {
+  width: 42%;
+}
+
+footer h4 {
+  font-size: 1.875em;
 }
 
 /* ----------------------------------FOOTER----------------------------------------- */
