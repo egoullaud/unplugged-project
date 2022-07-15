@@ -393,33 +393,35 @@ input[type=button] {
   background-color: #527158;
   display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   flex-flow: row wrap;
 }
-/*.faq .content-wrapper {
+
+.faq .content-wrapper {
+  margin: 50px 0 0 0;
   display: flex;
   justify-content: center;
-  align-items:center;
+  align-items: center;
   flex-flow: row wrap;
-  margin: 50px 5px;
 }
- */
-.faq h2{
-  margin: 40px;
+
+.faq h2 {
+  margin-bottom: 40px;
   line-height: 1;
 }
-.faq-content{
-  display: flex;
-  justify-content: center;
-  align-items:center;
-  flex-flow: row wrap;
-  width: 90%;
+
+.faq-content {
   margin-bottom: 50px;
-  margin-left: 20px;
 }
+
+.faq-content {
+  margin-bottom: 50px;
+}
+
 .faq-content h4 {
   line-height: 1.333;
 }
+
 
 /* ==========================================================================
    Helper classes
@@ -671,7 +673,6 @@ align-items: flex-start;
  flex-basis: 45%;
 
 }
-
 .faq h2{
   width: 100%;
 }
