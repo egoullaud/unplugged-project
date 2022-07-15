@@ -245,6 +245,8 @@ footer .copyright{
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/hero-image.png') center no-repeat #333;
+  background-size: cover;
 }
 
 .hero-area h1{
@@ -292,6 +294,8 @@ input[type=button] {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  background: url('../img/picnic.png') center no-repeat #333;
+  background-size: cover;
 }
 .features p{
   text-align: center;
@@ -664,15 +668,12 @@ p {
 }
 /* ----------------------------------ASIDE----------------------------------------- */
 aside .content-wrapper{
-
   justify-content: space-around;
-
 }
 
 aside .content-wrapper .newsletter-signup,
 aside .content-wrapper .form{
   width:30%;
-
 }
 
 .newsletter-signup p{
