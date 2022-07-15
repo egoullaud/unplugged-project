@@ -139,14 +139,15 @@ p{
   text-align: left;
 }
 
-/*img{
-
+img{
+width: 100%;
 }
 
 figure{
+  margin:0;
 
 }
-*/
+
 
 address{
   font-style:normal;
@@ -172,6 +173,16 @@ footer {
 header{
   padding: 15px 0;
 }
+
+
+header figure {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
 header .content-wrapper{
   display: flex;
   justify-content: center;
@@ -485,7 +496,9 @@ header .content-wrapper {
   width: 100%;
   justify-content: space-between;
 }
-
+header figure{
+  width:30%;
+}
 header nav{
   width: 20%;
 }
@@ -624,7 +637,9 @@ align-items: flex-start;
 header {
   padding: 15px 0;
 }
-
+header figure{
+  width:24%;
+}
 .content-wrapper {
   max-width: 960px;
 }
