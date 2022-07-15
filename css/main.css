@@ -630,6 +630,10 @@ display: flex;
 justify-content: space-between;
 align-items: flex-start;
 }
+.map figure {
+  padding-bottom: 45%; 
+}
+
 
 .contact-content h4{
   font-size: 1.5em;
@@ -730,6 +734,9 @@ footer h4{
 }
 .contact-content h4{
   font-size: 1.875em;
+}
+.map figure {
+  padding-bottom: 37%; 
 }
 
 /* ---------------------------------FAQ PAGE---------------------------------------- */
