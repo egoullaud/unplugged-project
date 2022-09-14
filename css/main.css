@@ -173,17 +173,20 @@ footer {
 header{
   padding: 15px 0;
 }
+.header-wrapper{
+  width: 100%;
+}
 
 
-header figure {
-    width: 60%;
+header .logo {
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
 }
 
-header .content-wrapper{
+.header-wrapper{
   display: flex;
   justify-content: center;
   align-items:center;
@@ -197,17 +200,16 @@ header .content-wrapper{
   margin: 10px 0 20px 0;
 }
 header nav {
-  width: 60%;
+  width: 100%;
   font-size: 1.125em;
   font-weight: 700;
   text-transform: uppercase;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   flex-flow: row wrap;
   
 }
-
 header nav ul {
   width: 100%;
   display: flex;
@@ -218,6 +220,7 @@ header nav ul li {
   font-size: 1.125em;
   padding: 0 40px;
   align-items: center;
+  justify-content: space-evenly;
 }
 
 footer{
